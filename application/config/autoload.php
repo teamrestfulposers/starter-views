@@ -133,3 +133,11 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 $autoload['model'] = array('Menu', 'Categories');
+
+/*
+ * To eanble parsedown. 
+ *  
+ */
+
+
+$autoload['libraries'] = array('parser', 'database', 'parsedown');
